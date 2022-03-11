@@ -8,62 +8,78 @@
       color: black;
       text-decoration: none;
     }
+	a:hover {
+	  color:lightgrey;
+	}
   
   </style>
   </head>
-  <body style="                              background-color:dimgrey;">
+  <body style="                                      background-color:dimgrey;">
     <div style="text-align: center;">
       <table style="width: 100%; margin-left:auto; margin-right:auto" border="8">
         <tbody>
           <tr>
-            <td style="font-size:96px; font-weight:bold;"> -
+            <td style="font-size:128px; font-weight:bold;"> -
               &nbsp;TrenchNet&nbsp; -</td>
           </tr>
         </tbody>
       </table>
     </div>
-    <div style="margin-right:auto; margin-left:auto; text-align:center">
-      <p style="color:Aqua; font-weight:bold"> ! UNDER CONSTRUCTION ! <br>
-        EVERYTHING YOU SEE IS SUBJECT TO CHANGE </p>
+    <div style="margin-right:auto; margin-left:auto; text-align:center"> <br>
+      <p style="color:Aqua; font-weight:bold; font-size:32px"> ! UNDER
+        CONSTRUCTION ! </p>
       <br>
-      <br>
-      <table style="width: 23%; float:left; border-spacing:12px" border="4">
-        <tbody style="font-size:30px; font-weight:bold;">
+      <table style="width: 23%; height: 550px; float:left; border-spacing:18px;"
+
+        border="4">
+        <tbody style="font-size:40px; font-weight:bold;">
           <tr>
-            <td> <a href="about.html">ABOUT</a> </td>
-          </tr>
-          <tr>
-            <td> LOG </td>
+            <td> <a href="http://trenchnet.org/about.html">ABOUT</a> </td>
           </tr>
           <tr>
             <td> REALMS </td>
           </tr>
           <tr>
-            <td>PROJECTS</td>
+            <td> PROJECTS </td>
           </tr>
           <tr>
-            <td> GAMES </td>
+            <td> <br>
+            </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
           </tr>
         </tbody>
       </table>
-      <table style="width: 70%; float:right;" border="4">
+      <table style="width: 70%; height: 550px; float:right; border-spacing:12px;"
+
+        border="4">
         <tbody>
           <tr>
-            <td style="text-align:left; padding:10px; font-size:24px; color:"> <strong>Welcome,
-                Traveler.</strong>
-              <p style="font-size:20px">I haven't the faintest idea how you got
-                here. You must be weary from your adventures. Fear not, you may
-                rest. The hearth is warm and supper is close at hand. <br>
+            <td style="text-align:center; vertical-align:top; font-size:32px; padding:4px;">
+              <strong>Welcome, Traveler.</strong>
+              <div style="font-size:24px; text-align:left"> <br>
                 <br>
-                TrenchNet is my personal website I lovingly handcrafted in pure
-                HTML. Because of that, it's not very stable. Or good-looking. Or
-                secure. However, out of nothing but boredom, I've
-                placed all of my programming projects, stories, and anything
-                else I can think of here. Feel free to look around!</p>
+                  I haven't the faintest idea how you got here; but you must be
+                weary from your adventures. Fear not, you may rest. The hearth
+                is warm and supper is close at hand. <br>
+                <br>
+                  TrenchNet is my personal website I lovingly handcrafted in
+                pure HTML. Because of that, it's not very stable. Or
+                good-looking. Or secure. However, out of nothing but boredom,
+                I've placed all of my programming projects, stories, and
+                anything else I can think of here. Feel free to look around! <br>
+                <br>
+                  But do be warned. A good portion of this site was built using
+                Notepad++ by an amateur. Stuff is probably borked. The other
+                parts were made in BlueGriffon, but that isn't very convincing
+                either. </div>
             </td>
           </tr>
         </tbody>
       </table>
     </div>
+    
   </body>
 </html>
