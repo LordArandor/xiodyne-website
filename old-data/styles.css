@@ -1,0 +1,20 @@
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+	
+	body {
+		background-color: #444444;
+	}
+
+	table, td, th {
+		background-color:dimgrey;
+		border:6px grey outset;
+		border-collapse: seperate;
+		border-spacing: 18px;
+	}
+
+	#menutd:hover {
+		background-color:lightgrey;
+	}
