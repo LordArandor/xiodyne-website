@@ -1,14 +1,48 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Franklin Gothic Light'
+    font-family: 'Arial'
 }
 
-.tdefault1 {
+.menutable {
     margin-left: auto;
     margin-right: auto;
-    border-width: thick;
-    border-style: solid;
+    width: 100%;
+    font-size:150%;
+    font-weight: bold;
+    color:black;
+    background-color:white;
+}
+.menutablecell {
+    background-color:white;
+    color:black;
+}
+.menutablecell:hover {
+    background-color:black;
+    color:white;
+}
+
+.paneltable {
+    background-color: black;
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: thin;
+    border-style: dashed;
     border-color:white;
     border: 4;
+    float:left; 
+}
+.bodytable {
+    background-color: black;
+    width: 65%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: thin;
+    border-style: dashed;
+    border-color:white;
+    border: 4;
+    float:right
 }
