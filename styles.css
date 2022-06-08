@@ -1,48 +1,121 @@
 body {
-    background-color: black;
+    background-color:#00CCFF;
     color: white;
-    font-family: 'Arial'
+    font-family: 'Arial';
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+@keyframes menutableloadin {
+    from {background-color:black;}
+    to {background-color:white;}
+}
+
+@keyframes logoloadin {
+    from {opacity:0%; color:white;}
+    to {opacity:100%; color:cyan;}
+}
+
+@keyframes backgroundloop {
+    0% {color:#00AAFF;}
+    50% {color:#FFFFFF;}
+    100% {color:#00AAFF;}
+}
+
+@keyframes backgroundloadin {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+/*
+@keyframes newsroomgradient {
+    0%{background-color:#22222222;}
+    50%{background-color:#00FFFFAA;}
+    100%{background-color:#22222222;}
+}
+*/ 
+
+@keyframes newsroomloadin {
+    from{transform:translateX(-5%);opacity:0%;}
+    to{transform:translateY(0%);opacity: 100%;}
+}
+
+.backgroundtext {
+    position:absolute; 
+    font-weight: bolder; 
+    text-align:center; 
+    font-size: 128px; 
+    z-index:-1; 
+    user-select: none; 
+    color: transparent;
+
+    text-shadow: 0 0 15px #FFFFFF10;
+}
+
+.logo {
+    text-align:center; 
+    font-size:100%;
+    color: cyan;
+    font-family:Arial;
+    word-spacing:100%;
+    font-weight:bolder;
+    font-size:150%;
+    
+    margin-left:auto;
+    margin-right:auto;
+
+    text-shadow: 0 0 10px #00FFFF;
+
+    animation-name:logoloadin;
+    animation-duration:2s;
 }
 
 .menutable {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    width:100%;
+    padding-left:0%;
+    padding-right:0%;
     font-size:150%;
-    font-weight: bold;
+    font-weight: light;
     color:black;
     background-color:white;
+
+    padding-top:10px;
+    padding-bottom:10px;
+
+    border: 1;
+    border-style: none;
+    border-color:white;
+    border-width: 0px;
 }
 .menutablecell {
-    background-color:white;
+    background-color:transparent;
     color:black;
+
 }
 .menutablecell:hover {
-    background-color:black;
-    color:white;
+    background-image:linear-gradient(to top, #FFFFFF, #CCCCCC)
 }
 
-.paneltable {
-    background-color: black;
-    width: 25%;
-    height: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: thin;
-    border-style: dashed;
-    border-color:white;
-    border: 4;
-    float:left; 
-}
 .bodytable {
-    background-color: black;
-    width: 65%;
-    height: 65%;
+    background-color: transparent;
+    width: 90%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    border-width: thin;
-    border-style: dashed;
+    border-width: thick;
+    border-style: none;
     border-color:white;
-    border: 4;
-    float:right
+    border: 1;
+    
+    box-shadow: 0px 0px 50px #444444;
+
+    border-radius: 25px;
+
+    padding-top:10px;
+    padding-left:25px;
+    padding-right:25px;
+
+    background-image: linear-gradient(to left, #AA00FF, transparent);
+    
+    animation:newsroomloadin 1s 1;
 }
