@@ -1,2 +1,6 @@
 <div class="backgroundtext">Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ Ξ</div>
 box-shadow: 5px 0px 5px #00FFFFAA;
+
+11BBEEEE
+
+background-image: linear-gradient(to left, #00AAAA, cyan);
